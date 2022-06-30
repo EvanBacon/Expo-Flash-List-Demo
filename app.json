@@ -19,7 +19,17 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.bacon.yolo1"
+      "bundleIdentifier": "com.bacon.yolo1",
+      "splash": {
+        "image": "https://icogen.vercel.app/api/splash?icon=26a1&color=transparent",
+        "resizeMode": "cover",
+        "backgroundColor": "#FFFED3",
+        "dark": {
+          "image": "https://icogen.vercel.app/api/splash?icon=26a1&color=transparent",
+          "resizeMode": "cover",
+          "backgroundColor": "#000"
+        }
+      }
     },
     "android": {
       "adaptiveIcon": {
