@@ -314,6 +314,12 @@ PODS:
   - React-jsinspector (0.68.2)
   - React-logger (0.68.2):
     - glog
+  - react-native-safe-area-context (4.2.4):
+    - RCT-Folly
+    - RCTRequired
+    - RCTTypeSafety
+    - React
+    - ReactCommon/turbomodule/core
   - React-perflogger (0.68.2)
   - React-RCTActionSheet (0.68.2):
     - React-Core/RCTActionSheetHeaders (= 0.68.2)
@@ -381,6 +387,9 @@ PODS:
     - React-perflogger (= 0.68.2)
   - RNFlashList (1.0.2):
     - React-Core
+  - RNScreens (3.11.1):
+    - React-Core
+    - React-RCTImage
   - Yoga (1.14.0)
 
 DEPENDENCIES:
@@ -420,6 +429,7 @@ DEPENDENCIES:
   - React-jsiexecutor (from `../node_modules/react-native/ReactCommon/jsiexecutor`)
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
   - React-logger (from `../node_modules/react-native/ReactCommon/logger`)
+  - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
   - React-perflogger (from `../node_modules/react-native/ReactCommon/reactperflogger`)
   - React-RCTActionSheet (from `../node_modules/react-native/Libraries/ActionSheetIOS`)
   - React-RCTAnimation (from `../node_modules/react-native/Libraries/NativeAnimation`)
@@ -433,6 +443,7 @@ DEPENDENCIES:
   - React-runtimeexecutor (from `../node_modules/react-native/ReactCommon/runtimeexecutor`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
   - "RNFlashList (from `../node_modules/@shopify/flash-list`)"
+  - RNScreens (from `../node_modules/react-native-screens`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -508,6 +519,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/jsinspector"
   React-logger:
     :path: "../node_modules/react-native/ReactCommon/logger"
+  react-native-safe-area-context:
+    :path: "../node_modules/react-native-safe-area-context"
   React-perflogger:
     :path: "../node_modules/react-native/ReactCommon/reactperflogger"
   React-RCTActionSheet:
@@ -534,6 +547,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon"
   RNFlashList:
     :path: "../node_modules/@shopify/flash-list"
+  RNScreens:
+    :path: "../node_modules/react-native-screens"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -573,6 +588,7 @@ SPEC CHECKSUMS:
   React-jsiexecutor: b7b553412f2ec768fe6c8f27cd6bafdb9d8719e6
   React-jsinspector: c5989c77cb89ae6a69561095a61cce56a44ae8e8
   React-logger: a0833912d93b36b791b7a521672d8ee89107aff1
+  react-native-safe-area-context: f98b0b16d1546d208fc293b4661e3f81a895afd9
   React-perflogger: a18b4f0bd933b8b24ecf9f3c54f9bf65180f3fe6
   React-RCTActionSheet: 547fe42fdb4b6089598d79f8e1d855d7c23e2162
   React-RCTAnimation: bc9440a1c37b06ae9ebbb532d244f607805c6034
@@ -586,6 +602,7 @@ SPEC CHECKSUMS:
   React-runtimeexecutor: b960b687d2dfef0d3761fbb187e01812ebab8b23
   ReactCommon: 095366164a276d91ea704ce53cb03825c487a3f2
   RNFlashList: c0d80613fdef8b1679f25c04d24a098819d8d29b
+  RNScreens: 4d83613b50b74ed277026375dc0810893b0c347f
   Yoga: 99652481fcd320aefa4a7ef90095b95acd181952
 
 PODFILE CHECKSUM: 92589f7ad8252341266b08cfafe5fa1ef964f901

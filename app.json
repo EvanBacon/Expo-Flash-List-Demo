@@ -19,7 +19,7 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.bacon.flashlistdemo"
+      "bundleIdentifier": "com.bacon.yolo1"
     },
     "android": {
       "adaptiveIcon": {
