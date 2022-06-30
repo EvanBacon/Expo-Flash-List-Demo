@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "yolo1",
-    "slug": "yolo1",
+    "name": "FlashList Demo",
+    "slug": "flash-list-demo",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "https://icogen.vercel.app/api/icon?icon=26a1",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "https://icogen.vercel.app/api/splash?icon=26a1",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -18,16 +18,17 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.bacon.flashlistdemo"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "foregroundImage": "https://icogen.vercel.app/api/icon?icon=26a1&color_hex=00000000&padding=204",
+        "backgroundColor": "#FFFED3"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "https://icogen.vercel.app/api/favicon?icon=26a1&color_hex=00000000"
     }
   }
 }
