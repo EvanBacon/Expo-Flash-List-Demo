@@ -5,10 +5,10 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "https://icogen.vercel.app/api/icon?icon=26a1",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "automatic",
     "splash": {
       "image": "https://icogen.vercel.app/api/splash?icon=26a1",
-      "resizeMode": "contain",
+      "resizeMode": "cover",
       "backgroundColor": "#ffffff"
     },
     "updates": {
@@ -25,7 +25,8 @@
       "adaptiveIcon": {
         "foregroundImage": "https://icogen.vercel.app/api/icon?icon=26a1&color_hex=00000000&padding=204",
         "backgroundColor": "#FFFED3"
-      }
+      },
+      "package": "com.bacon.yolo1"
     },
     "web": {
       "favicon": "https://icogen.vercel.app/api/favicon?icon=26a1&color_hex=00000000"
